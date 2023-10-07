@@ -68,30 +68,30 @@ El dataframe resultante contiene las siguientes variables:
 # Estadísticas descriptivas para variables numéricas
 - `N_VICTIMAS`
 Esta variable presenta como valores posibles entre 1 y 3 siendo el más frecuente el numero 1 lo cual demuestra que estan los datos cargados hacia el 1.
-![Figura 1. Distribución de victimas](../images/N_VICTIMAS.png)
+![Figura 1. Distribución de victimas](/images/N_VICTIMAS.png)
 
 - FECHA
 Los incidentes registrados estan entre los años 2016 a 2021 en donde podemos encontrar que el número de accidentes anuales han disminuido a partir del año 2019 como puede apreciarse en la figura 2.
-![Figura 2. Distribución temporal de incidentes](../images/fecha.png)
+![Figura 2. Distribución temporal de incidentes](/images/fecha.png)
 
 - `Altura`
 
 Esta variable presenta una gran cantidad de valores faltantes (584 registros nulos) lo que representa un total del 81.5 % de los datos del la variable, ademas de lo anterior el valor mínimo es 30 y el máximo es 16080, lo cual demuestra un rango muy amplio de valores, es posible que la unidad utilizada en esta variable sean metros.
 
 La figura 3 muestra la dispersión de los datos para la variable Altura, en donde podemos encontrar ciertos valores atipicos.
-![Figura 3. Dispersión de la variable Altura](../images/Altura.png)
+![Figura 3. Dispersión de la variable Altura](/images/Altura.png)
 En conclusión, esta variable no es de buena calidad ya que presenta una gran cantidad de registros faltates asi como valores atipicos, ademas de lo anterior podemos encontrar que la desviación estándar es muy grade 3095.161836 lo que muestra la gran variabilidad.
 
 - Latitud y Longitud
 Las variables `pos x` y `pos y`, representan la Longitud y la Latitud respectivamente, en ellas podemos encontrar que se tienen unicamente 13 registros faltantes, los valores medios de latitud y longitud son -58.441664	y -34.619700 respectivamente lo cual nos lleva a las coordenadas (-34.619700,-58.441664) la cual corresponde a la ciudad analizada en este reporte como se puede corroborar en la imagen adjunta obtenida en Google Maps.
-![Figura 4. Coordenada media de los incidentes](../images/CABA_map.jpg)
+![Figura 4. Coordenada media de los incidentes](/images/CABA_map.jpg)
 Puede consultar la ubicación directamente en el siguiente enlace:
 https://maps.app.goo.gl/nQCPZ78Tdv3xciSEA
 
 - `EDAD`
 La variable `EDAD` presenta un rango de datos entre 1 y 95 años, en donde en promedio las victimas presentaban una edad de 42 años con una desviación estandár de alrededor de 20 años, a pesar de que se intentan identificar outliers en esta variable y se encuentra que esta variable es consistente incluso si retiramos datos atipicos.
 La distribución de esta variable esta cargada en el los primeros 2 cuartiles, lo que muestra que la mayoria de accidentes reportados fue entre los 20 a los 40 años.
-![Figura 5. Distribución de edades de las víctimas](../images/EDAD.png)
+![Figura 5. Distribución de edades de las víctimas](/images/EDAD.png)
 
 # Estadísticas descriptivas para variables categóricas
 El tipo de vialidad categorizada en `TIPO_DE_CALLE`muestra que la mayoria de los eventos registrados fueron en avenidas, lo cual tiene sentido por la forma en la que se encuentran las arterias viales de CABA.
@@ -99,7 +99,7 @@ El tipo de vialidad categorizada en `TIPO_DE_CALLE`muestra que la mayoria de los
 Los `PARTICIPANTES` en los incidentes que fueron registrados más frecuentemente son los peatones o pasajeros, mientras que la variable `VICTIMA` que fue registrada más frecuentes fueron las Motocicletas y los peatones lo cual muestra el gran riesgo que corren estos individuos
 
 El vehiculo mas frecuentemente categorizado como `ACUSADO`fueron los Autos, Pasajeros, y vehiculos de carga, mientras que el `ROL` que jugo la victima fue Conductor, Peaton y pasajero. Por otro lado `SEXO` de la victima fue mayormente marculino
-![Figura 6. Distribución para las variables categoricas](../images/categoricas.png)
+![Figura 6. Distribución para las variables categoricas](/images/categoricas.png)
 
 
 
